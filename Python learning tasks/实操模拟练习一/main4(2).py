@@ -16,7 +16,7 @@ def calc_code_lines(file_path):
             if len(line) == 0:#____【4】____(line) == 0:
                 continue
         #  (2)如果该行以#字符开头，也不予计算
-            if line.____【5】____('#'):
+            if line.('#'):#____【5】____('#'):
                 continue
             row_count += 1
     return row_count
